@@ -1,0 +1,81 @@
+.cont{
+    padding:12px;
+  }
+  .navcontainer{
+    position: fixed;
+    top: 0%;
+
+  }
+  
+    .navbar{
+        font-family: 'Courier New', Courier, monospace; 
+        letter-spacing: 2px
+    }
+    .pro{
+      font-size: larger;
+      font-weight:520;
+      font-family:Arial, Helvetica, sans-serif;
+      letter-spacing: 2px;
+      
+      margin: 10px;
+      margin-top: 25px;
+
+    }
+    #houseimg{
+      width: 23.5%;
+      border: none;
+      position: relative;
+      
+      
+    }
+    .houses{ 
+      display:flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+
+
+    }
+     #titl{
+      color: white;
+      background-color: black;
+      font-size: smaller;
+      height:4%;
+      position:absolute;
+      left: 2%;
+    } 
+    .cardz{
+      display:flex;
+    }
+    .contact{
+      width: 100%;
+      border: none;
+      background-color: rgb(184, 181, 181);
+    }
+    .card{
+      margin: 5px;
+      border: none;
+      width: 20rem;
+    }
+    .para{
+      letter-spacing: normal;
+      font-family:Arial, Helvetica, sans-serif;
+    }
+    .input-group{
+      margin: 10px;
+      border-width: 0%;
+    }
+    .map{
+      text-align: center;
+    }
+    .btn, .form-control{
+      border-radius: 0%;
+    }
+    .footer{
+      height: 80px;
+     color: white;
+     background-color: black;
+     
+     display: flex;
+     align-items: center;
+     justify-content: center;
+    }
